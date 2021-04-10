@@ -1,0 +1,103 @@
+body{
+	margin:0;
+}
+header{
+	background: coral;
+}
+header h1{
+	margin: 0;
+	color:white;
+	font-size:1.6em;
+	line-height: 3em;
+}
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+nav{
+	background: #555;
+	line-height: 1.6em;	
+}
+nav li{
+	margin: 0 5px;
+	display: inline;
+}
+nav li a{
+	text-decoration: none;
+	color:#fff;
+}
+#showcase{
+	min-height: 250px;
+	background-image: url(coral.jpg);
+	background-position: center right;
+	text-align: center;
+	padding-top: 50px;
+	box-sizing: border-box;
+	margin: 20px auto;
+	}
+#showcas h1{
+	color: #fff;
+	font-size: 40pt;
+}
+main{
+	margin-top: 20px;
+	display: flex;
+	min-height: 350px;
+}
+#article{
+	flex-grow: 7;
+	padding: 0 10px;	
+}
+#aside{
+	padding: 50px 10px;
+	flex-grow: 5;
+	background: #333333;
+	color: white;
+}
+footer{
+	background: #333;
+	color:white;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px
+}
+@media(max-width: 800px){
+	main{
+		flex-wrap: wrap;
+	}
+	#article{
+		width: 100%;
+	}
+	#aside{
+		width: 100%;
+	}
+}
+#a{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+#b{
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+#c{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.box{
+	width: 150px;
+	height: 150px;
+	background:yellow;
+}
+.box1{
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
